@@ -58,7 +58,6 @@ int main() {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             for (int d = 0; d < 8; d++) {
-                //controlliamo tutte le direzioni
                 int dx = directions[d][0];
                 int dy = directions[d][1];
                 if (check_word(matrix, rows, cols, i, j, dx, dy)) {
